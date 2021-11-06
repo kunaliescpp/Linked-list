@@ -55,7 +55,7 @@ public:
     
     int len;
     list<int> dll;                                                         // doubly LL
-    unordered_map<int,   pair<int, list<int>::iterator>   >mp;            // pair is storing <element, curr pos in list>
+    unordered_map<int,   pair<int, list<int>::iterator>   >mp;            // pair is storing <element, address of node in list>
     
     LRUCache(int capacity) {
         len = capacity;
