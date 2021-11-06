@@ -4,6 +4,7 @@ Problem Link: https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-
 Detect Loop in linked list 
 
 Given a linked list of N nodes. The task is to check if the linked list has a loop. Linked list can contain self loop.
+Then value of x is given which means last node is connected with xth node of linked list
 
 Example 1:
 Input: N = 3
