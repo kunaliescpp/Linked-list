@@ -6,8 +6,7 @@ Detect Loop in linked list
 Given a linked list of N nodes. The task is to check if the linked list has a loop. Linked list can contain self loop.
 
 Example 1:
-Input:
-N = 3
+Input: N = 3
 value[] = {1,3,4}
 x = 2
 Output: True
@@ -21,8 +20,9 @@ value[] = {1,8,3,4}
 x = 0
 Output: False
 Explanation: For N = 4 ,x = 0 means then lastNode->next = NULL, then the Linked list does not contains any loop.
-Your Task:
-The task is to complete the function detectloop() which contains reference to the head as only argument. This function should return true if linked list contains loop, else return false.
+
+Your Task: The task is to complete the function detectloop() which contains reference to the head as only argument. 
+This function should return true if linked list contains loop, else return false.
 
 Constraints:
 1 ≤ N ≤ 10^4
@@ -57,6 +57,5 @@ class Solution{
     return false;
     } 
 };
-
 
 
