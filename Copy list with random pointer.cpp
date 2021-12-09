@@ -91,7 +91,7 @@ public:
          // delinking copy nodes
          Node *clonecurr = curr->next;           
          Node *clonehead = clonecurr;
-         while(clonecurr != NULL){
+         while(curr != NULL){
 
              curr->next = clonecurr->next;
              if(curr->next != NULL) clonecurr->next = curr->next->next;
@@ -103,9 +103,5 @@ public:
     return clonehead;    
     }
 };
-
-
-
-
 
 
