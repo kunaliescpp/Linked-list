@@ -46,13 +46,14 @@ class Solution{
     //Function to check if the linked list has a loop : Floyd's cycle detection
     bool detectLoop(Node* head){
         Node* slow = head;
-        Node* fast = head;
+        Node* fast = slow->next;
         
         while(fast != NULL && fast->next != NULL){
-            slow = slow->next;
-            fast = fast->next->next;
             
             if(fast == slow) return true;
+            
+            slow = slow->next;
+            fast = fast->next->next;
         }
     
     return false;
