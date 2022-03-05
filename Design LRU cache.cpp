@@ -3,6 +3,7 @@ Problem Link: https://leetcode.com/problems/lru-cache/
 
 Design LRU Cache
 Design a data structure that follows the constraints of a Least Recently Used (LRU) cache.
+Imagine a magic stack with given capacity and element is pop from the bottom of stack.
 
 Example 1:
 Input: ["LRUCache", "put", "put", "get", "put", "get", "put", "get", "get", "get"]
